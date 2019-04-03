@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>hotel booking</title>
+</head>
+<body>
+<header>
+<div align="right">
+<a href="signup.html"><font color="blue">SignUp<font color="white">""</a>
+<a href="login.html"><font color="blue">Login</a>
+</div>
+<center><img src="logo.jpg"  height="55" width="55"></img></center>
+<center><div><h2 style="Background-color:Blue"><font color="white">Hotel Booking System</font><h2></div></center>
+<center><nav>
+<a href=""><font color="blue">Home</font></a>
+<a href="about.html"><font color="blue">About</font></a>
+<a href=""><font color="blue">Contact</font></a>
+</nav></center>
+</header>
+<section>
+<article>1.....</article>
+<article>2.....</article>
+<article>3.....</article>
+</section>
+</body>
+</html>

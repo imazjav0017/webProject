@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>hotel booking</title>
+</head>
+<body>
+<header>
+<div align="right">
+</div>
+<center><img src="logo.jpg"  height="55" width="55"></img></center>
+<center><h2 style="Background-color:Blue"><font color="white">Hotel Booking System</font><h2></center>
+</header>
+<h1><center>Login</center></h1>
+ <center><form>
+  Email: <input type="text" name="email"><br><br>
+  Password: <input type="password" name="fname"><br><br>
+ <input type="submit" value="Login">
+</form></center>
+</body>
+</html>

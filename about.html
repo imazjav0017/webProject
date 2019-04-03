@@ -1,0 +1,187 @@
+<html>
+<head>
+	<title>Gallery</title>
+
+<style>
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+  background-image: url("beach.jpeg");
+  height: 100%;
+  background-position: center;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+background-attachment: fixed;
+}
+
+ h1{
+
+	font-size: 30px;
+
+position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 10px;
+	color: #fff;
+	opacity: 0.8;
+	font-family: san-serif;
+	border: 1px solid white;
+	border-radius: 25px;
+
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.li {
+  float: left;
+  color: white;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
+}
+</style>
+</head>
+<body class="bg">
+<div align="left"><img src="logo.jpg"  height="55" width="55"></img> <div align="right">
+<a href="signup.php"><font color="white">SignUp</a>
+<a href="login.php"><font color="white">Login</a>
+</div></div>
+<header class="header">
+	<header>
+<center>
+<ul class="ul">
+<li class="li"><a class="li a" href="mainPage.php">Home</font></a></li>
+<li class="li"><a class="active" href="about.html">Gallery</font></a></li>
+<li class="li"><a class="li a" href="book.html">Book</font></a></li>
+<li class="li"><a class="li a" href="login.php">Logout</font></a></li>
+</ul>
+</center>
+	</header>
+
+	<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="loby.jpeg">
+      <img src="loby.jpeg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Lobby</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="loby.jpeg">
+      <img src="gym.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Gym</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="sp.jpg">
+      <img src="sp.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Swimming Pool</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="room.jpeg">
+      <img src="room.jpeg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Room</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="rest.jpeg">
+      <img src="rest.jpeg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Restaurant</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="rest.jpeg">
+      <img src="game.jpeg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Game Room</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>Our Hotels are a chain of luxury hotels and a subsidiary of the Indian Hotels Company Limited - headquartered at Express Towers, Nariman Point in Mumbai. Incorporated by the founder of the Tata Group, Jamsetji Tata, in 1903, the company is a part of the Tata Group, one of India's largest business conglomerates.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>hotel booking</title>
+</head>
+<body>
+<header>
+<div align="right">
+</div>
+<center><img src="logo.jpg"  height="55" width="55"></img></center>
+<center><h2 style="Background-color:Blue"><font color="white">Hotel Booking System</font><h2></center>
+</header>
+<h1><center>SignUp</center></h1>
+ <center><form>
+  First name: <input type="text" name="fname"><br><br>
+  Last name: <input type="text" name="lname"><br><br>
+  Email: <input type="text" name="email"><br><br>
+  Mobile: <input type="number" name="fname"><br><br>
+  D.O.B: <input type="date" name="fname"><br><br>
+  Password: <input type="password" name="fname"><br><br>
+  Gender:<input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female<br><br>
+ <input type="submit" value="SignUp">
+</form></center>
+</body>
+</html>
